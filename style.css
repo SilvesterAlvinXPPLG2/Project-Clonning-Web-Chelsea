@@ -1,0 +1,86 @@
+body {
+    background-color: whitesmoke;
+}
+
+.Logo_Brainly img{
+    height: 34px;
+    width: 86px;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+body header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    right: 100px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    justify-content: baseline;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header nav ul input {
+    margin-left: 15px;
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    background-color: skyblue;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(147, 224, 255);
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.huruf h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main div.huruf img {
+    float: right;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer div.buscontainer1 h3, div.buscontainer2 h3, div.buscontainer3 h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+footer div.buscontainer1 p, div.buscontainer2 p, div.buscontainer3 p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+footer div.container {
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+}
